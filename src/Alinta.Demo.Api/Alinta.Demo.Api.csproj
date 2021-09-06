@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ConfigurationOptionValidator" Version="1.0.0" />
+      <PackageReference Include="EntityFramework" Version="6.4.4" />
+      <PackageReference Include="HotChocolate" Version="10.5.5" />
+      <PackageReference Include="HotChocolate.Abstractions" Version="10.5.5" />
+      <PackageReference Include="HotChocolate.AspNetCore" Version="10.5.5" />
+      <PackageReference Include="HotChocolate.AspNetCore.Abstractions" Version="10.5.5" />
+      <PackageReference Include="HotChocolate.AspNetCore.HttpGet" Version="10.5.5" />
+      <PackageReference Include="HotChocolate.AspNetCore.HttpGetSchema" Version="10.5.5" />
+      <PackageReference Include="HotChocolate.AspNetCore.Playground" Version="10.5.5" />
+      <PackageReference Include="HotChocolate.AspNetCore.Voyager" Version="10.5.5" />
+      <PackageReference Include="HotChocolate.Types" Version="10.5.5" />
+      <PackageReference Include="HotChocolate.Types.Selections" Version="10.5.5" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+        <HintPath>bin\Debug\netcoreapp5.0\Newtonsoft.Json.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Alinta.Demo.Infrastructure\Alinta.Demo.Infrastructure.csproj" />
+      <ProjectReference Include="..\Alinta.Demo.Domain\Alinta.Demo.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

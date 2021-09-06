@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alinta.Demo.Api", "src\Alinta.Demo.Api\Alinta.Demo.Api.csproj", "{A1450B44-C673-43B7-82D2-4F09D2511096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alinta.Demo.Domain", "src\Alinta.Demo.Domain\Alinta.Demo.Domain.csproj", "{9E43B6DC-97ED-4B15-B122-5FA7A169CC4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alinta.Demo.Infrastructure", "src\Alinta.Demo.Infrastructure\Alinta.Demo.Infrastructure.csproj", "{301B202B-B3C7-43FA-9DEA-E3CA44636191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alinta.Demo.Test", "src\Alinta.Demo.Test\Alinta.Demo.Test.csproj", "{25BDA452-E2B1-4CC3-B104-DC4D6C73BCC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1450B44-C673-43B7-82D2-4F09D2511096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1450B44-C673-43B7-82D2-4F09D2511096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1450B44-C673-43B7-82D2-4F09D2511096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1450B44-C673-43B7-82D2-4F09D2511096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E43B6DC-97ED-4B15-B122-5FA7A169CC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E43B6DC-97ED-4B15-B122-5FA7A169CC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E43B6DC-97ED-4B15-B122-5FA7A169CC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E43B6DC-97ED-4B15-B122-5FA7A169CC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301B202B-B3C7-43FA-9DEA-E3CA44636191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301B202B-B3C7-43FA-9DEA-E3CA44636191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301B202B-B3C7-43FA-9DEA-E3CA44636191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301B202B-B3C7-43FA-9DEA-E3CA44636191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25BDA452-E2B1-4CC3-B104-DC4D6C73BCC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BDA452-E2B1-4CC3-B104-DC4D6C73BCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BDA452-E2B1-4CC3-B104-DC4D6C73BCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BDA452-E2B1-4CC3-B104-DC4D6C73BCC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
